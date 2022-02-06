@@ -1,6 +1,6 @@
 .container {
   height: 50px;
-  background-color: black;
+  background-color: rgb(3, 34, 100);
   color: white;
   display: flex;
   align-items: center;

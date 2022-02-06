@@ -15,15 +15,15 @@ const Navbar = () => {
         </li>
         <li className={style.listItem}>
         {/* /products/development */}
-          <Link href="/">DEVELOPMENT</Link>
+          <Link href="/products/development">DEVELOPMENT</Link>
         </li>
         <li className={style.listItem}>
           {/* /products/production */}
-          <Link href="/">PRODUCTION</Link>
+          <Link href="/products/production">PRODUCTION</Link>
         </li>
         <li className={style.listItem}>
           {/* /products/photography */}
-          <Link href="/">PHOTOGRAPHY</Link>
+          <Link href="/products/photography">PHOTOGRAPHY</Link>
         </li>
         <li className={style.listItem}>
           <Link href="/contact">CONTACT</Link>

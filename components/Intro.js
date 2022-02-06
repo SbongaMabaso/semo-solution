@@ -7,13 +7,13 @@ const Intro = () => {
     <div className={style.container}>
       {/* <div className={`${style.circle} ${style.circle1}`} />
       <div className={`${style.circle} ${style.circle2}`} /> */}
-      <Circle backgroundColor="#01c686" top="-45vh" left="-45vh" />
+      <Circle backgroundColor="lightblue" top="-15vh" left="-15vh" />
       {/* <Circle backgroundColor="#01c686" right="-40vh" /> */}
       <div className={style.card}>
         <h1 className={style.title}>
           <span className={style.brandName}>| SEM0 S0LUTI0N |</span>
           <br />
-           <h6>we are your solution of
+           <h6>we are a solution of
              your digital product.
             </h6>
         </h1>
@@ -27,9 +27,9 @@ const Intro = () => {
       </div>
       <div className={style.card}>
         <Image
-          src={process.env.NEXT_PUBLIC_URL + "/img/semo-logo.png"}
-          layout="fill"
-          objectFit="cover"
+          src={process.env.NEXT_PUBLIC_URL + "/img/semo-logo.png"} width="850" height="500"
+          // layout="fill"
+          // objectFit="cover"
           alt=""
         />
       </div>

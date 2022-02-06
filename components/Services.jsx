@@ -11,7 +11,7 @@ const Services = ({ services }) => {
         <div className={style.services}>
           {services.map((service) => (
             // the div in the follwing line in used to replace a Link
-            <div key={service.id} href={`/products/${service.name}`} passHref>
+            <Link key={service.id} href={`/products/${service.name}`} passHref>
               <div className={style.service}>
                 <div className={style.catInfo}>{service.desc}</div>
                 <span className={style.cat}>{service.title}</span>
@@ -35,7 +35,7 @@ const Services = ({ services }) => {
                   )}
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
